@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home work lesson 3</title>
+</head>
+
+<body>
+    <header>
+        <h1>Домашнее задание. Занятие №3</h1>
+    </header>
+
+    <section>
+        <form action="#" name="questionnaire" method="get">
+
+            <div class="questionnaire">
+                <h4>Анкета с данными</h4>
+                <label><span>Ваше имя</span><br>
+                    <input type="text" name="FirstName" placeholder="Введите имя" required>
+                </label><br>
+                <label><span>Ваша фамилия</span><br>
+                    <input type="text" name="LastName" placeholder="Введите фамилию" required>
+                </label><br>
+                <label><span>Ваш email</span><br>
+                    <input type="email" name="email" placeholder="Email" required>
+                </label><br>
+                <label><span>Дата рождения</span><br>
+                    <input type="date" name="date">
+                </label><br>
+                <label><span>Ваш телефон</span><br>
+                    <input type="tel" pattern="[0-9]{9}" placeholder="+380976636363"><br>
+                </label>
+            </div>
+
+            <div class="size">
+                <h4>Выбор размера</h4>
+                <label>
+                    <input type="radio" name="size" value="XS"> XS
+                </label><br>
+                <label>
+                    <input type="radio" name="size" value="S"> S
+                </label><br>
+                <label>
+                    <input type="radio" name="size" value="M"> M
+                </label><br>
+                <label>
+                    <input type="radio" name="size" value="L"> L
+                </label><br>
+            </div>
+
+            <div class="options">
+                <h4>Дополнительные опции</h4>
+                <label>
+                    <input type="checkbox" name="options" value="delivery">Доставка<br>
+                </label>
+                <label>
+                    <input type="checkbox" name="options" value="payment">Оплата картой<br>
+                </label>
+                <label>
+                    <input type="checkbox" name="options" value="callback">Перезвоните мне<br>
+                </label>
+            </div>
+
+            <div class="color">
+                <h4>Выберите цвет</h4>
+                <select name="color">
+                    <option value="red">Красный</option>
+                    <option value="blue">Синий</option>
+                    <option value="white">Белый</option>
+                    <option value="black">Черный</option>
+                </select>
+            </div>
+
+            <button>Отправить</button>
+        </form>
+
+    </section>
+
+    <footer>
+        <p><em>Разработчик сайта</em><a href="Oleksandr_ZVR.com.ua">OleksandrZVR</a></p>
+    </footer>
+</body>
+
+</html>
