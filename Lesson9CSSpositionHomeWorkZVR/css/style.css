@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.block{
+    height: 500px;
+    width: 700px;
+    position: relative;
+    margin-left: 230px;
+    background-color: grey;
+    padding: 50px;
+}
+
+header{
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: brown;
+    z-index: 99;
+    text-align: center;
+    color: #fff;
+}
+/*
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.75);
+}
+*/
+
+/*
+.modal-content{
+    width: 400px;
+    height: 200px;
+    background-color: brown;
+    color: #fff;
+    padding: 15px;
+    margin: auto;
+    position: absolute;
+     top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+*/
+
+.box{
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 100px;
+    color: #fff;
+}
+
+
+
+.box:nth-child(1){
+    background-color: brown;
+    position: absolute;
+}
+
+.box:nth-child(2){
+    background-color: seagreen;
+    position: absolute;
+    left: 450px;
+    top: 50px;
+}
+
+.box:nth-child(3){
+    background-color: goldenrod;
+    position: absolute;
+    top: 350px;
+}
+
+.box:nth-child(4){
+    background-color: burlywood;
+    position: absolute;
+    left: 450px;
+    top: 350px;
+
+}
+
+.box:nth-child(5){
+    background-color: darkcyan;
+    width: 100px;
+    position: absolute;
+    left: 300px;
+    top: 200px;
+}
+
+.chess-game{
+    position: relative;
+}
+
+.chess-white img{
+    height: 30px;
+    width: 30px;
+}
+
+.chess-black img{
+    height: 30px;
+    width: 30px;
+}
+
+.chess-white:nth-child(1){
+    position: absolute;
+    top: 30px;
+    left: 82px;
+
+}
+
+.chess-white:nth-child(2){
+    position: absolute;
+    top: 30px;
+    left: 183px;
+
+}
+
+.chess-white:nth-child(3){
+    position: absolute;
+    top: 30px;
+    left: 284px;
+
+}
+
+.chess-white:nth-child(4){
+    position: absolute;
+    top: 30px;
+    left: 385px;
+
+}
+
+.chess-white:nth-child(5){
+    position: absolute;
+    top: 80px;
+    left: 32px;
+
+}
+
+.chess-white:nth-child(6){
+    position: absolute;
+    top: 80px;
+    left: 133px;
+
+}
+
+.chess-white:nth-child(7){
+    position: absolute;
+    top: 80px;
+    left: 234px;
+
+}
+
+.chess-white:nth-child(8){
+    position: absolute;
+    top: 80px;
+    left: 335px;
+
+}
+
+.chess-white:nth-child(9){
+    position: absolute;
+    top: 132px;
+    left: 82px;
+
+}
+
+.chess-white:nth-child(10){
+    position: absolute;
+    top: 132px;
+    left: 183px;
+
+}
+
+.chess-white:nth-child(11){
+    position: absolute;
+    top: 183px;
+    left: 235px;
+
+}
+
+.chess-white:nth-child(12){
+    position: absolute;
+    top: 132px;
+    left: 385px;
+
+}
+
+.chess-black:nth-child(13){
+    position: absolute;
+    top: 386px;
+    left: 32px;
+}
+
+.chess-black:nth-child(14){
+    position: absolute;
+    top: 386px;
+    left: 133px;
+}
+
+.chess-black:nth-child(15){
+    position: absolute;
+    top: 386px;
+    left: 234px;
+}
+
+.chess-black:nth-child(16){
+    position: absolute;
+    top: 386px;
+    left: 335px;
+}
+
+.chess-black:nth-child(17){
+    position: absolute;
+    top: 336px;
+    left: 82px;
+}
+
+.chess-black:nth-child(18){
+    position: absolute;
+    top: 336px;
+    left: 183px;
+}
+
+.chess-black:nth-child(19){
+    position: absolute;
+    top: 336px;
+    left: 284px;
+}
+
+.chess-black:nth-child(20){
+    position: absolute;
+    top: 336px;
+    left: 385px;
+}
+
+
+.chess-black:nth-child(21){
+    position: absolute;
+    top: 286px;
+    left: 335px;
+}
+
+
+.chess-black:nth-child(22){
+    position: absolute;
+    top: 234px;
+    left: 183px;
+}
+
+
+.chess-black:nth-child(23){
+    position: absolute;
+    top: 286px;
+    left: 134px;
+}
+
+
+.chess-black:nth-child(24){
+    position: absolute;
+    top: 286px;
+    left: 34px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
