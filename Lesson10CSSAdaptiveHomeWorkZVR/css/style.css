@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    padding: 25px;
+/*    padding-left: 25px;*/
+/*    padding-right: 25px;*/
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+.box{
+    background-color: gray;
+    min-height:50px;
+    text-align: center;
+    color: #fff;
+/*    margin: 10px;*/
+/*    margin-top: 20px;*/
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.adaptive{
+   background-color: #DFE9EB;
+}
+
+.adaptive .box{
+    height: 500px;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    text-align: start;
+    background-color: #fff;
+    position: relative;
+/*    margin-right: 20px;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+}
+
+/*
+h1{
+    margin-top: 400px;
+    margin-left: 20px;
+    margin-right: 300px;
+}
+*/
+
+.concept-cars{
+    background-image: url("https://st2.depositphotos.com/3364363/5972/i/600/depositphotos_59728757-stock-photo-waiting-for-a-new-day.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:300px;
+/*    padding-left: 30px;*/
+    padding-right: 300px;
+    text-align: start;
+}
+
+h1{
+    padding-left: 15px;
+}
+.concept-cars p{
+}
+
+h3{
+    color: #000;
+    padding-left: 15px;
+}
+
+p{
+    padding-left: 15px;
+    padding-top: 20px;
+    color: #BCBCBC;
+}
+
+.adaptive img{
+    max-height: 40%;
+}
+
+.author{
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+
+@media all and (max-width:1920px){
+    .concept-cars{
+        max-width: 65%;
+    }
+}
+
+@media all and (max-width:1920px){
+    .simple-things{
+        max-width: 30%;
+    }
+}
+
+@media all and (max-width:1920px){
+    .website-photo{
+        max-width: 30%;
+    }
+}
+
+@media all and (max-width:1920px){
+    .freelance-career{
+        max-width: 30%;
+    }
+}
+
+@media all and (max-width:1920px){
+    .photography-course{
+        max-width: 30%;
+    }
+}
+
+@media all and (max-width:1024px){
+    .concept-cars{
+        min-width: 100%;
+    }
+}
+
+@media all and (max-width:1024px){
+    .simple-things{
+        max-width: 47%;
+    }
+}
+
+@media all and (max-width:1024px){
+    .website-photo{
+        max-width: 47%;
+    }
+}
+
+@media all and (max-width:1024px){
+    .freelance-career{
+        max-width: 47%;
+    }
+}
+
+@media all and (max-width:1024px){
+    .photography-course{
+        max-width: 47%;
+    }
+}
+
+@media all and (max-width:768px){
+    .concept-cars{
+        min-width: 100%;
+    }
+}
+
+@media all and (max-width:768px){
+    .simple-things{
+        min-width: 100%;
+    }
+}
+
+@media all and (max-width:768px){
+    .website-photo{
+        min-width: 100%;
+    }
+}
+
+@media all and (max-width:768px){
+    .freelance-career{
+        min-width: 100%;
+    }
+}
+
+@media all and (max-width:768px){
+    .photography-course{
+        min-width: 100%;
+    }
+}
+
+
